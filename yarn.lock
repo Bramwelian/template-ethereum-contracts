@@ -3126,6 +3126,11 @@ hardhat-deploy-tenderly@^0.2.0:
     axios "^0.24.0"
     js-yaml "^4.1.0"
 
+hardhat-deploy-uniswap-v2@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hardhat-deploy-uniswap-v2/-/hardhat-deploy-uniswap-v2-0.1.0.tgz#9ecc24a980e3e27510aa420fba621a047449aa19"
+  integrity sha512-TMSluafT6JNCtFhHVeftXkPHSKvjPilONl7a0ym18yQqXzSKvm5f+rwerXst1yba2dWhxJ7+AzhtkOgftUyesw==
+
 hardhat-deploy@^0.11.14:
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.11.14.tgz#8be2dcb0fa3560e59abba2ca33212d98f201b904"
