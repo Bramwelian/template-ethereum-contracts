@@ -6,8 +6,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const {deployments, getNamedAccounts} = hre;
   const {deploy} = deployments;
 
-  const {deployer, proxy01Owner, simpleERC20Beneficiary} =
-    await getNamedAccounts();
+  const {deployer, proxy01Owner, simpleERC20Beneficiary} = await getNamedAccounts();
 
   await deploy('SimpleERC20AlwaysProxied', {
     contract: 'SimpleERC20AlwaysProxied',
