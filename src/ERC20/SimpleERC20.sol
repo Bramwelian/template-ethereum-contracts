@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-1.0
-pragma solidity 0.8.9;
+pragma solidity 0.8.17;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./ERC20Base.sol";
@@ -15,9 +15,10 @@ contract SimpleERC20 is ERC20Base, WithPermitAndFixedDomain, Proxied {
         _mint(to, amount);
     }
 
-    string public constant symbol = "SIMPLE";
 
-    function name() public pure override returns (string memory) {
-        return "Simple ERC20";
-    }
+	string public constant symbol = "SIMPLE";
+
+	function name() public pure override returns (string memory) {
+		return "Simple ERC20";
+	}
 }
